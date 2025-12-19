@@ -6,7 +6,7 @@ const articlesRoutes = require("./routes/articles");
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://world-news-rajar.vercel.app/"],
+    origin: ["http://localhost:5173", "https://world-news-rajar.vercel.app", "https://world-news-rajar.vercel.app/articles"],
     methods: ["GET"],
   })
 );
